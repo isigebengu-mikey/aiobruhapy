@@ -1,6 +1,6 @@
-from .translations import *
-from .cb import *
-from .taco import *
+from .misc import *
+from .textendpoints import *
+from .imageendpoints import *
 
 class RequestError(Exception):
   pass
